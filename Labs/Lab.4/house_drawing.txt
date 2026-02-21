@@ -1,0 +1,1 @@
+RasterDrawing(60, 40, [(Rectangle(24, 15, 18, 20), '#'), (Triangle(18, 18, 28, 12, 16, 8), '^'), (Circle(5, 10, 10), 'O'), (Rectangle(6, 8, 27, 27), ' ')])
