@@ -34,9 +34,10 @@ The goal of this project is to build a binary classification model that distingu
 
 ### Data Visualization:
 
-1. **Feature Distribution Histograms** — shows which features separate the two classes best. `Area` and `Perimeter` have the clearest gap between Besni and Kecimen, while `Extent` barely separates at all. Best visualization for understanding the data.
-<img width="806" height="465" alt="image" src="https://github.com/user-attachments/assets/113785f7-4625-439c-bece-25fb58dbf724" />
-<img width="835" height="459" alt="image" src="https://github.com/user-attachments/assets/c61e6ad2-ce5c-47bd-8073-b7d70e43aad8" />
+1. **Feature Distribution Histograms** — shows which features separate the two classes best. `Area` and `Perimeter` have the clearest gap between Besni and Kecimen, while `Extent` barely separates at all. Best visualization for understanding the data. Histograms were normalized using density=True.
+<img width="765" height="450" alt="image" src="https://github.com/user-attachments/assets/5738a7a7-57e5-417c-8cc9-875f5bd31359" />
+<img width="1005" height="552" alt="image" src="https://github.com/user-attachments/assets/c9d63279-01f0-422c-b832-b45e789e4965" />
+
 
 
 2. **Correlation Heatmap** — reveals the >0.97 correlation between the four size features. Important because it explains why a simple model like Logistic Regression still performs well — the classes are almost linearly separable.
